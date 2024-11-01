@@ -1,6 +1,6 @@
-import type { App, Component } from 'vue'
+import type { App, Component } from "vue";
 
-const componentsMap: Record<string, Component> = {}
+const componentsMap: Record<string, Component> = {};
 
 /**
  * 解析并注册组件到应用实例中
@@ -10,6 +10,6 @@ const componentsMap: Record<string, Component> = {}
  */
 export default function resolve(app: App<Element>) {
   for (const key in componentsMap) {
-    app.component(key, componentsMap[key])
+    app.component(key, componentsMap[key]);
   }
 }

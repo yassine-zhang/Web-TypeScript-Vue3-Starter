@@ -2,7 +2,7 @@
 
 * {
   font-synthesis-weight: none !important; /* 这个设置通常用于防止浏览器在字体文件不包含特定粗细时artificially创建粗体或细体版本，这可能会导致字体显示不理想。 */
-  font-variation-settings: 'opsz' 30; /* 可变字体的具体变体设置 */
+  font-variation-settings: "opsz" 30; /* 可变字体的具体变体设置 */
   font-feature-settings: normal; /* 字体特性设置 */
 }
 
@@ -52,7 +52,7 @@ acronym[title] {
 
 q:before,
 q:after {
-  content: '';
+  content: "";
 }
 
 /* 重置表单元素 */

@@ -1,4 +1,4 @@
-import { message } from 'ant-design-vue'
+import { message } from "ant-design-vue";
 
 /**
  * 将指定字符串复制到剪贴板，并在复制成功后显示成功消息。
@@ -12,12 +12,12 @@ export function copyTargetString(value: string, copiedMsg: string) {
   navigator.clipboard
     .writeText(value)
     .then(() => {
-      message.success(copiedMsg)
+      message.success(copiedMsg);
     })
     .catch((error) => {
-      console.error('复制失败:', error)
-      message.error('复制失败，请稍后重试')
-    })
+      console.error("复制失败:", error);
+      message.error("复制失败，请稍后重试");
+    });
 }
 
 /**
@@ -29,5 +29,7 @@ export function copyTargetString(value: string, copiedMsg: string) {
  * @returns {boolean} 如果是移动设备，返回 true，否则返回 false
  */
 export function isMobileDevice() {
-  return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+  return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+    navigator.userAgent,
+  );
 }
