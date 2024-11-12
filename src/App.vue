@@ -9,6 +9,6 @@
       },
     }"
   >
-    <RouterView class="gt-standard-mono" />
+    <RouterView class="gt-standard" />
   </ant-config-provider>
 </template>

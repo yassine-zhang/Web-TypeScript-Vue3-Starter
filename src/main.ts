@@ -1,3 +1,4 @@
+import "modern-css-reset/src/reset.css";
 import "./assets/main.css";
 import "virtual:uno.css";
 
