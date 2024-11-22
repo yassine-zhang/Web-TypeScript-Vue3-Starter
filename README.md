@@ -2,7 +2,14 @@
 
 > 这是一个Web通用基础项目模版，包含Vue3、AntDesignVue、Unocss、TypeScript、ESLint、Prettier...
 
-在线网站：https://typescript-vue3-antd-unocss-starter.vercel.app/
+在线网站：https://web-typescript-vue3-starter.vercel.app/
+
+# 模版分支关系
+
+模版列表：
+
+- **main&&default-antd-unocss**: 正如介绍中所说；
+- **diff-shadcn-tailwind**: 与默认模版的不同之处在于其使用Shadcn UI框架和TailwindCSS原子化编程；
 
 # 项目结构
 
