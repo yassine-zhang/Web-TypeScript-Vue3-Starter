@@ -1,5 +1,8 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Toaster from "@/components/ui/toast/Toaster.vue";
+</script>
 
 <template>
   <RouterView class="gt-standard" />
+  <Toaster />
 </template>
