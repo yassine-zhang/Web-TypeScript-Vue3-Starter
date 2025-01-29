@@ -1,61 +1,66 @@
-# 介绍
+# Web-TypeScript-Vue3-Starter
 
-> 这是一个Web通用基础项目模版，包含Vue3、AntDesignVue、Unocss、TypeScript、ESLint、Prettier...
+这是一个基于 Vue 3 + TypeScript 的 Web 项目模板集合。每个分支都提供了不同的技术栈组合，您可以根据需求选择合适的模板开始您的项目。
 
-在线网站：https://web-typescript-vue3-starter.vercel.app/
+## 模板分支
 
-# 模版分支关系
+### main
+主分支，基础模板。
 
-模版列表：
+### default-antd-unocss
+- 技术栈：Vue 3 + TypeScript + Ant Design Vue + UnoCSS
+- 特点：
+  - 使用 Ant Design Vue 作为 UI 组件库
+  - 采用 UnoCSS 作为原子化 CSS 引擎
+  - 完整的项目结构和最佳实践
 
-- **main&&default-antd-unocss**: 正如介绍中所说；
-- **diff-shadcn-tailwind**: 与默认模版的不同之处在于其使用Shadcn UI框架和TailwindCSS原子化编程；
+### diff-shadcn-tailwind
+- 技术栈：Vue 3 + TypeScript + Shadcn Vue + Tailwind CSS
+- 特点：
+  - 使用 Shadcn Vue 作为无样式组件库
+  - 采用 Tailwind CSS 作为 CSS 框架
+  - 现代化的 UI 设计系统
 
-# 项目结构
+## 使用方法
 
-> 符合代码规范的目录结构
+### 方法一：克隆整个仓库后切换分支
 
+1. 克隆仓库
 ```bash
-.
-├── README.md
-├── bun.lockb
-├── components.d.ts
-├── env.d.ts
-├── index.html
-├── package.json
-├── public
-│   └── favicon.ico
-├── src
-│   ├── App.vue
-│   ├── assets
-│   ├── components
-│   ├── main.ts
-│   ├── router
-│   ├── stores
-│   └── views
-├── tsconfig.app.json
-├── tsconfig.json
-├── tsconfig.node.json
-├── uno.config.ts
-└── vite.config.ts
+git clone https://github.com/yassine-zhang/Web-TypeScript-Vue3-Starter.git
 ```
 
-# 如何开始？
+2. 切换到需要的模板分支
+```bash
+git checkout <branch-name>
+```
 
-## 1. 安装依赖
+### 方法二：直接克隆指定分支（推荐）
 
+```bash
+# Ant Design Vue + UnoCSS 模板
+git clone -b default-antd-unocss https://github.com/yassine-zhang/Web-TypeScript-Vue3-Starter.git my-antd-project
+
+# Shadcn Vue + Tailwind CSS 模板
+git clone -b diff-shadcn-tailwind https://github.com/yassine-zhang/Web-TypeScript-Vue3-Starter.git my-shadcn-project
+```
+
+### 启动项目
+
+1. 安装依赖
 ```bash
 bun install
 ```
 
-## 2. 运行项目
-
+2. 启动开发服务器
 ```bash
 bun dev
 ```
 
-## 3. 打包项目
+## 贡献
 
-```bash
-bun run build
-```
+欢迎提交 Issue 和 Pull Request。
+
+## 许可证
+
+[MIT](LICENSE)
