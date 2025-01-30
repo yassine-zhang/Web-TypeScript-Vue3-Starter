@@ -21,6 +21,13 @@
   - 采用 Tailwind CSS 作为 CSS 框架
   - 现代化的 UI 设计系统
 
+### diff-flowbite-tailwind
+- 技术栈：Vue 3 + TypeScript + Flowbite + Tailwind CSS
+- 特点：
+  - 使用 Flowbite 作为 UI 组件库
+  - 采用 Tailwind CSS 作为 CSS 框架
+  - 轻量级且功能丰富的组件系统
+
 ## 使用方法
 
 ### 方法一：克隆整个仓库后切换分支
@@ -43,6 +50,9 @@ git clone -b default-antd-unocss https://github.com/yassine-zhang/Web-TypeScript
 
 # Shadcn Vue + Tailwind CSS 模板
 git clone -b diff-shadcn-tailwind https://github.com/yassine-zhang/Web-TypeScript-Vue3-Starter.git my-shadcn-project
+
+# Flowbite + Tailwind CSS 模板
+git clone -b diff-flowbite-tailwind https://github.com/yassine-zhang/Web-TypeScript-Vue3-Starter.git my-flowbite-project
 ```
 
 ### 启动项目
